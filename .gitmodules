@@ -1,0 +1,6 @@
+[submodule "ws2kafka"]
+	path = ws2kafka
+	url = git@github.com:jorgeyp/ws2kafka.git
+[submodule "kafka2mongodb"]
+	path = kafka2mongodb
+	url = git@github.com:jorgeyp/kafka2mongodb.git
