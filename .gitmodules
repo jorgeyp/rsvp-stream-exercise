@@ -4,3 +4,6 @@
 [submodule "kafka2mongodb"]
 	path = kafka2mongodb
 	url = git@github.com:jorgeyp/kafka2mongodb.git
+[submodule "rsvp-endpoints"]
+	path = rsvp-endpoints
+	url = git@github.com:jorgeyp/rsvp-endpoints.git
