@@ -10,6 +10,7 @@ Running the exercise requires a Kafka topic, a MongoDB database and a collection
 - Kafka topic: "meetup"
 - MongoDB database: "meetup"
 - MongoDB collection: "rsvp"
+This can be changed in the `config/` folder of each project.
 
 Then you can run the projects with the following commands:
 - ws2kafka: `sbt run`
