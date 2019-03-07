@@ -27,13 +27,21 @@ npm start
 ## Usefull snippets
 
 Run Zookeper:
-`bin/kafka-topics.sh --list --zookeeper localhost:2181`
+```
+bin/kafka-topics.sh --list --zookeeper localhost:2181
+```
 
 Run Kafka:
-`bin/kafka-server-start.sh config/server.properties`
+```
+bin/kafka-server-start.sh config/server.properties
+```
 
 Create topic:
-`bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic meetup`
+```
+bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic meetup
+```
 
 Set topic retention time:
-`bin/kafka-configs.sh --zookeeper localhost:2181 --entity-type topics --entity-name meetup --alter --add-config retention.ms=180000`
+```
+bin/kafka-configs.sh --zookeeper localhost:2181 --entity-type topics --entity-name meetup --alter --add-config retention.ms=180000
+```
